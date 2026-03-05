@@ -32,7 +32,7 @@ targets:
       host: https://adb-7405615037605183.3.azuredatabricks.net/
     variables:
       catalog: workspace
-      schema: ${workspace.current_user.short_name}
+      schema: dev_${workspace.current_user.alphanumeric}
   prod:
     mode: production
     workspace:
