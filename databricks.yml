@@ -43,5 +43,5 @@ targets:
       catalog: workspace
       schema: prod
     permissions:
-      - user_name: bhawukarora042@gmail.com
+      - service_principal_name: fa5100e0-7232-4b5d-b487-f6d13515c0b5
         level: CAN_MANAGE
