@@ -118,7 +118,7 @@ jobs:
 
       - name: Deploy Bundle (Prod)
         env:
-          DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST_DEV }}
+          DATABRICKS_HOST: https://adb-7405617160012298.18.azuredatabricks.net/
           ARM_TENANT_ID: ${{ vars.ARM_TENANT_ID }}
           ARM_CLIENT_ID: ${{ vars.ARM_CLIENT_ID_DEV }}
           ARM_CLIENT_SECRET: ${{ secrets.ARM_CLIENT_SECRET_DEV }}
